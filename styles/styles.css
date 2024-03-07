@@ -105,3 +105,63 @@ body {
    padding: 4em;
 }
 
+.device {
+        text-align: center;
+        padding: 6em 0;
+}
+
+.device__title {
+    font-size: 48px;
+    padding: 1em 0;
+    
+}
+
+.device__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.device__list__name {
+font-size: 32px;
+}
+
+.footer__description {
+    text-align: center;
+    padding-bottom: 6em;
+    
+}
+
+.footer__img {
+    padding: 2em 0;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    list-style-type: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 2em 0;
+
+}
+
+.link__list a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.warning {
+    color: var(--secondary-color);
+    font-size: 14px;
+   
+    margin: 0 10em 1em 10em;
+}
+
+.link__list a:hover {
+    color: var(--button-color);
+}
+
+
+
