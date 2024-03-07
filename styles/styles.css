@@ -89,6 +89,19 @@ body {
 .container__description__text {
 
     color: var(--secondary-color);
+
+    
 }
 
+.container__btn__combo {
+
+  display:inline-block;
+  margin-top: 1em;
+  width: 11.5em;
+  text-align: center;
+}
+
+.container__description {
+   padding: 4em;
+}
 
